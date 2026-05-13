@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LUMIÈRE 3D</title>
+
+    <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS-->
+     <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                LUMIÈRE 3D
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#gallery">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 about-section">
+
+    <h1>About This Project</h1>
+
+    <p>
+        LUMIÈRE 3D is an interactive Web 3D application created for my Web 3D Applications module.
+        The project presents three luxury perfume concepts: Rose Bloom, Ocean Mist and After Midnight.
+    </p>
+
+    <h2>3D Models</h2>
+    <p>
+        The perfume bottles were created in Blender using simple geometric modelling techniques.
+        I used cylinder-based modelling, extrusion, scaling and smoothing to create a the bottle shapes.
+        Each perfume model has its own colour palette, label and material design.
+    </p>
+
+    <h2>Technologies Used</h2>
+    <p>
+        The website was built using HTML5, CSS3, Bootstrap, JavaScript and Three.js.
+        Blender was used to create the 3D models, which were exported as OBJ and MTL files and loaded into the webpage.
+    </p>
+
+    <h2>Interaction Features</h2>
+    <p>
+        Users can rotate the selected model, switch wireframe mode on and off, use orbit controls to zoom and pan,
+        and select different perfume models through the gallery buttons.
+    </p>
+
+    <h2>Design Choices</h2>
+    <p>
+        I designed the website with a luxury fragrance aesthetic using soft colours, metallic abstract imagery,
+        rounded cards, dark contrast sections and clean typography. The visual style was chosen to match the perfume
+        models and create a consistent product showcase.
+    </p>
+
+    <h2>Accessibility</h2>
+    <p>
+        The layout uses clear headings, readable contrast, large buttons and a responsive Bootstrap grid.
+        The content is organised into sections so users can understand and navigate the page easily.
+    </p>
+
+    <h2>Deeper Understanding</h2>
+
+    <p>
+        This project extends beyond the laboratory tutorials through the creation of original Blender perfume models,
+        implementation of OBJ/MTL model loading, dynamic 3D model swapping, responsive Bootstrap design,
+        custom camera systems and additional interactive JavaScript features such as wireframe mode,
+        orbit controls and audio feedback.
+    </p>
+
+    <h2>Testing</h2>
+    <p>
+        I tested the model viewer, rotation button, wireframe button, orbit controls and model switching buttons.
+        I also checked that the website layout responds correctly when the browser window is resized. Testing identified several issues during development, including incorrect model scaling,
+        broken file paths and camera orientation problems. These issues were resolved through
+        iterative refinement of the Three.js scene and Blender exports.
+    </p>
+
+    <table class="table table-bordered mt-4">
+
+    <thead>
+        <tr>
+            <th>Feature Tested</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>3D model loading</td>
+            <td>All three OBJ/MTL perfume models loaded successfully.</td>
+        </tr>
+
+        <tr>
+            <td>Rotation button</td>
+            <td>Models rotate correctly and can be paused by the user.</td>
+        </tr>
+
+        <tr>
+            <td>Wireframe mode</td>
+            <td>Wireframe rendering successfully toggles on and off.</td>
+        </tr>
+
+        <tr>
+            <td>Camera buttons</td>
+            <td>Front, side and reset camera views function correctly.</td>
+        </tr>
+
+        <tr>
+            <td>Audio interaction</td>
+            <td>Button click sound effects play correctly when interacting with the interface.</td>
+        </tr>
+
+        <tr>
+            <td>Responsive layout</td>
+            <td>Bootstrap grid layout adapts correctly to different screen sizes.</td>
+        </tr>
+
+    </tbody>
+
+    </table>
+
+    <h2>Accessibility Considerations</h2>
+    <p>
+        High contrast buttons, readable typography and responsive layouts were used to improve accessibility and usability.
+        Interactive controls were clearly labelled and organised consistently throughout the interface.
+    </p>
+
+    <h2>Statement of Originality</h2>
+    <p>
+        This website was designed and developed as an original Web 3D application for the module. 
+        The perfume concept, layout, custom Blender models, model materials and interaction features were created and adapted for this assignment.
+        External tools and resources used during development are acknowledged below.
+    </p>
+
+    <h2>References and Credits</h2>
+    <ul>
+        <li>Blender was used to create and export the 3D perfume models.</li>
+        <li>Three.js was used to render and interact with the 3D models in the browser.</li>
+        <li>Bootstrap was used for responsive layout and interface components.</li>
+        <li>Abstract product images were used as visual media for the gallery cards.</li>
+        <li>Audio click effect was used to provide interactive feedback.</li>
+    </ul>   
+
+    <h2>Technologies Used</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Bootstrap 5</li>
+        <li>Three.js</li>
+        <li>Blender</li>
+    </ul>
+
+</div>
+
+    
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+
+        <p>
+            2026 Web 3D Applications Project
+        </p>
+    </footer>
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

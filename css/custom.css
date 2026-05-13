@@ -1,0 +1,129 @@
+body {
+    background-color: #f5f1eb;
+    font-family: Arial, sans-serif;
+
+}
+
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to right, #111111, #2c2c2c);
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* HERO SECTION */
+.bg-light {
+    background: linear-gradient(to right, #f7e7d7, #fff5ec) !important;
+    border-radius: 20px;
+    padding: 60px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* CARDS */
+.card {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn-dark {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 80px;
+    padding: 30px;
+}
+
+/* 3D VIEWER SECTION */
+
+.model-viewer {
+    height: 500px;
+    border-radius: 25px;
+
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.8),
+        rgba(30,30,30,0.8)
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.viewer-text {
+    text-align: center;
+    color: white;
+}
+
+.viewer-text h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.viewer-text p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.btn-outline-light {
+    margin-left: 10px;
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.model-info {
+    color: #3a3a3a;
+    padding: 20px;
+}
+
+.model-info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.model-info p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: auto;
+}
